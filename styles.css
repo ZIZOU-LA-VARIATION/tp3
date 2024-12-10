@@ -1,0 +1,53 @@
+body{
+    font-style: helvetica;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+h2{
+    text-decoration: underline;
+    color: blue;
+}
+section h2{
+    color: green;
+}
+h2+p{
+    font-style: italic;
+    color: red;
+}
+h1+p{
+    color: violet;
+}
+/* style pour exo 2*/
+form{
+    font-style: helvetica;
+   align-items: center;
+    width: 400px;
+    margin-top: 100px;
+    
+}
+input{
+    border-color: black; border-radius: 7px;
+    width: 200px; margin: 5px;
+}
+label{
+    width: 100px; text-align: left;
+}
+#ev{
+    background-color: blue; width: 400px; font-style: normal;
+    
+}
+#loc{
+     border-color: blue; 
+}
+/*style pour exo 3*/
+td{
+    border: 1; border-style: solid; padding: 5px;
+}
+.imp{
+    background-color: blue;
+}
+.l{
+   color: aquamarine;
+}
